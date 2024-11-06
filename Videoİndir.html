@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video İndirme</title>
+    <style>
+        body {
+            background-color: #f0f0f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            transform: translateY(-50%); /* İçeriği daha yukarıya çeker */
+        }
+        h1 {
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 20px; /* Butona yakınlaştırmak için azalan boşluk */
+        }
+        button {
+            padding: 10px 50px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Video İndirme</h1>
+        <button onclick="openSite()">Site</button>
+    </div>
+
+    <script>
+        function openSite() {
+            // Yeni sekmede siteyi aç
+            window.open("https://tr.savefrom.net/250CA/", "_blank");
+        }
+    </script>
+</body>
+</html>
